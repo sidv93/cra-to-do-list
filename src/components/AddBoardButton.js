@@ -10,7 +10,7 @@ const AddButton = styled.div`
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    font-size: 4rem;
+    font-size: 3rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
