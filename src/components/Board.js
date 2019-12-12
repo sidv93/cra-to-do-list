@@ -6,15 +6,19 @@ import AddBoardButton from './AddBoardButton';
 import DeleteBoardButton from './DeleteBoardButton';
 import List from './List';
 
-const StyledBoard = styled.div`
-
+const StyledListContainer = styled.div`
+    margin: 0 auto;
+    min-height: 70vh;
+    padding: 20px 0;
 `;
 
 const Board = (props) => (
     <Fragment>
         <Header title="Board1" />
         <DeleteBoardButton />
-        <List />
+        <StyledListContainer>
+            <List />
+        </StyledListContainer>
         <AddBoardButton />
         <Footer />
     </Fragment>
